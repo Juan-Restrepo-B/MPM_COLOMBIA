@@ -1,0 +1,411 @@
+/*Estructura Color y Caligrafia*/
+:root {
+    --Primario: rgb(239, 25, 35);
+    --Primario1: rgb(175, 30, 47);
+    --Secundario: rgb(103, 103, 105);
+    --Secundario1:rgb(59, 59, 59);
+    --Secundario2: rgba(214, 214, 214, 0.651);
+    --Blanco: #FFF;
+    --Negro: #000;
+
+    --FuentePrincipal: 'Montserrat', sans-serif;
+    --FuenteSecundaria: ;
+}
+/*Section 1*/
+.Section1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Section1_1 {
+    margin: 20px 0px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Section1_1 h2{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 3rem;
+  }
+  .Section1_1 img {
+    width: 100%;
+    border-radius: 10%;
+    box-shadow: 8px 10px 10px rgba(3, 32, 51, 0.6);
+  }
+  /*Section2*/
+  .Section2 {
+    background-color: var(--Blanco);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+.Section2_1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10%;
+  }
+  .card {
+    margin: 2rem;
+    width: 180px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, 0.6);
+    overflow: hidden;
+  }
+  .content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    transition: .5s;
+  }
+  .content h3{
+    color: var(--Primario);
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .content h4{
+    color: var(--Primario);
+    text-align: center;
+    font-size: 1rem;
+  }
+  .content span{
+    font-size: 1.5rem;
+  }
+  .content a {
+    color: var(--Blanco);
+  }
+  .card:hover .content {
+    opacity: 1;
+  }
+  .card1{
+    background: bottom url(../Img/Contactenos/Asesores/ERNESTO.jpg) no-repeat;
+    background-size: contain;
+  }
+  .card2{
+    background: bottom url(../Img/Contactenos/Asesores/STIVEN.png) no-repeat;
+    background-size: contain;
+  }
+  .card3{
+    background: bottom url(../Img/Contactenos/Asesores/JORGE.jpg) no-repeat;
+    background-size: contain;
+  }
+  .card4{
+    background: bottom url(../Img/Contactenos/Asesores/JUAN.png) no-repeat;
+    background-size: contain;
+  }
+  .card5{
+    background: bottom url(../Img/Contactenos/Asesores/Jhonny.jpg) no-repeat;
+    background-size: contain;
+  }
+  
+/*Seccion 3*/
+.Section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Section3_1{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 2rem;
+}
+.Section3_2 {
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+.nombres {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.otros {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 28.5%;
+    grid-gap: 1rem;
+}
+
+.otros2 {
+    padding-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+.otros2 {
+    padding-top: 20px;
+    width: 100%;
+}
+.field {
+    position: relative;
+    height: 52px;
+    width: 100%;
+    color: var(--Negro);
+    overflow: hidden;
+}
+
+.field input {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: var(--Negro);
+    line-height: 52px;
+    outline: 0;
+    background-color: inherit;
+    padding-top: 50px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.field .label-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background-color: inherit;
+    left: 0;
+    pointer-events: none;
+    border-bottom: 1px solid var(--Negro);
+}
+
+.field .label-wrapper:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid var(--Primario);
+    left: 0;
+    bottom: -1px;
+    transform: translateX(-100%);
+    transition: transform 0.2s ease;
+}
+
+.field .label-text {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.2s ease;
+}
+
+.field input:focus+.label-wrapper .label-text,
+.field input:valid+.label-wrapper .label-text {
+    font-size: 12px;
+    color: var(--Primario);
+    transform: translateY(-150%);
+}
+
+.field input:focus+.label-wrapper:after,
+.field input:valid+.label-wrapper:after {
+    transform: translateX(0%);
+}
+
+.field2 {
+    position: relative;
+    height: 52px;
+    width: 100%;
+    color: var(--Negro);
+    overflow: hidden;
+}
+
+.field2 input {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: var(--Negro);
+    line-height: 52px;
+    outline: 0;
+    background-color: inherit;
+    padding-top: 25px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.field2 .label-wrapper2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background-color: inherit;
+    left: 0;
+    pointer-events: none;
+    border-bottom: 1px solid var(--Negro);
+}
+
+.field2 .label-wrapper2:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid var(--Primario);
+    left: 0;
+    bottom: -1px;
+    transform: translateX(-100%);
+    transition: transform 0.2s ease;
+}
+
+.field2 .label-text2 {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.2s ease;
+}
+
+.field2 input:focus+.label-wrapper2 .label-text2,
+.field2 input:valid+.label-wrapper2 .label-text2 {
+    font-size: 12px;
+    color: var(--Primario);
+    transform: translateY(-150%);
+}
+.field2 input:focus+.label-wrapper2:after,
+.field2 input:valid+.label-wrapper2:after {
+    transform: translateX(0%);
+}
+
+.container-input {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 6px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.inputfile+label {
+    padding: 1em 1.5em;
+    border-radius: 50vmax;
+    max-width: 80%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+.inputfile+label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+.iborrainputfile {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lato';
+}
+.inputfile-2+label {
+    color: var(--Negro);
+    border: 2px solid currentColor;
+}
+.inputfile-2:focus+label,
+.inputfile-2.has-focus+label,
+.inputfile-2+label:hover {
+    color: var(--Negro);
+}
+
+.boton *,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-input svg {
+    color: #000;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.boton_enviar {
+    position: relative;
+    padding: 1em 1.5em;
+    color: var(--Negro);
+    font-size: 1.15rem;
+    border-radius: 100vmax;
+    background-color: transparent;
+    border: 2px solid var(--Negro);
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cardc {
+    background: bottom url(../Img/Contactenos/Asesores/OMAR.jpg) no-repeat;
+    background-size: contain;
+    margin: 2rem;
+    width: 180px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, 0.6);
+  }
+  .Section3_3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-column: 2/2;
+    padding-bottom: 30px;
+  }
+  .Section3_3 h2 {
+    font-size: 2rem;
+  }
+  .Section3_3 h3 {
+    color: var(--Primario1);
+    font-size: 1.8rem;
+  }
+  .Section3_3 p {
+    margin: 0;
+    color: var(--Secundario);
+    font-size: 1.5rem;
+  }
