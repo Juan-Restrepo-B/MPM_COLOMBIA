@@ -122,6 +122,14 @@
                                 <!--<a href="#">Ver Productos</a>-->
                             </div>
                         </div>
+                        <div class="card card6">
+                            <div class="content">
+                                <h3>LINEA DE VACIO<br>
+                                </h3>
+                                <br>
+                                <!--<a href="#">Ver Productos</a>-->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

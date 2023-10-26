@@ -218,6 +218,11 @@ footer{
   background-size: contain;
   grid-column: 5/5;
 }
+.card6{
+  background: center url(../Img/Marcas_Aliadas/Vacio.jpg) no-repeat;
+  background-size: contain;
+  grid-column: 5/5;
+}
 
 @media (max-width: 1550px){
   /*Section 2*/
