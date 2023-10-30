@@ -1,0 +1,28 @@
+*Estructura Color y Caligrafia*/
+:root {
+    --Primario: rgb(239, 25, 35);
+    --Primario1: rgb(175, 30, 47);
+    --Secundario: rgb(103, 103, 105);
+    --Secundario1:rgb(59, 59, 59);
+    --Secundario2: rgba(214, 214, 214, 0.651);
+    --Blanco: #FFF;
+    --Negro: #000;
+
+    --FuentePrincipal: 'Montserrat', sans-serif;
+    --FuenteSecundaria: ;
+}
+
+  .Section1 {
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  .Catalogo {
+    padding-top: 30px;
+    width: 100%;
+    height: 70vh;
+  }
+  iframe {
+    width: 90%;
+    height: 90%;
+  }
