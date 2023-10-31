@@ -20,21 +20,21 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
 }
-.Section1 p {
+.SectionNosotrosSomos p {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
 }
-.Section2 p {
+.sectionNosotrosVision p {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
 }
-.Section3 p {
+.sectionNosotrosMision p {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
 }
 
  /*Section 1*/
- .Section1 {
+ .SectionNosotrosSomos {
     background-color: var(--Blanco);
     width: 100%;
     display: flex;
@@ -44,27 +44,27 @@ h2 {
     flex-wrap: wrap;
     padding-bottom: 15px;
   }
-  .container1 {
+  .containerNosotrosSomos {
     margin: 20px 0px;
     width: 80%;
   }
-  .Section1 h2 {
+  .SectionNosotrosSomos h2 {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .container1_1 {
+  .containerNosotrosSomos_1 {
     display: grid;
     grid-template-columns: 70% 30%;
     grid-gap: 2rem;
   }
-  .container1_1 img{
+  .containerNosotrosSomos_1 img{
     width: 100%;
     border-radius: 20%;
   }
-  .container1_1 p {
+  .containerNosotrosSomos_1 p {
     margin: 0;
     color: var(--Negro);
     text-align: center;
@@ -75,7 +75,7 @@ h2 {
     font-weight: bold;
   }
   /*Section 2*/
- .Section2 {
+ .sectionNosotrosVision {
     background-color: var(--Secundario3);
     width: 100%;
     display: flex;
@@ -84,27 +84,27 @@ h2 {
     align-items: center;
     padding-bottom: 15px;
   }
-  .container2 {
+  .containerNosotrosVision {
     margin: 20px 0px;
     width: 80%;
   }
-  .Section2 h2 {
+  .sectionNosotrosVision h2 {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .container2_1 {
+  .containerNosotrosVision_2 {
     display: grid;
     grid-template-columns: 30% 70%;
     grid-gap: 2rem;
   }
-  .container2_1 img{
+  .containerNosotrosVision_2 img{
     width: 100%;
     border-radius: 20%;
   }
-  .container2_1 p {
+  .containerNosotrosVision_2 p {
     margin-top: 0;
     color: var(--Negro);
     text-align: center;
@@ -115,7 +115,7 @@ h2 {
     font-weight: bold;
   }
   /*Section 3*/
- .Section3 {
+ .sectionNosotrosMision {
     background-color: var(--Blanco);
     width: 100%;
     display: flex;
@@ -124,27 +124,27 @@ h2 {
     align-items: center;
     padding-bottom: 15px;
   }
-  .container3 {
+  .containerNosotrosMision {
     margin: 20px 0px;
     width: 80%;
   }
-  .Section3 h2 {
+  .sectionNosotrosMision h2 {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .container3_1 {
+  .containerNosotrosMision_3 {
     display: grid;
     grid-template-columns: 70% 30%;
     grid-gap: 2rem;
   }
-  .container3_1 img{
+  .containerNosotrosMision_3 img{
     width: 100%;
     border-radius: 20%;
   }
-  .container3_1 p {
+  .containerNosotrosMision_3 p {
     margin: 0;
     color: var(--Negro);
     text-align: center;
@@ -156,7 +156,7 @@ h2 {
   }
  
      /*Section 4*/
- .Section4 {
+ .sectionNpsotrosVideos {
     background-color: var(--Secundario3);
     width: 100%;
     display: flex;
@@ -165,18 +165,18 @@ h2 {
     align-items: center;
     padding-bottom: 15px;
   }
-  .container41 {
+  .containerNosotrosVideos {
     margin: 20px 0px;
     width: 90%;
   }
-  .Section4 h2 {
+  .sectionNpsotrosVideos h2 {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .container4_1 {
+  .containerNosotrosVideos_4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -184,11 +184,12 @@ h2 {
     flex-wrap: wrap;
     gap: 2rem;
   }
-  .videos iframe{
+  .NosotrosVideos iframe{
     border-radius: 10%;
   }
+
      /*Section 5*/
- .Section5 {
+ .sectionNosotrosGaleria {
     background-color: var(--Blanco);
     width: 100%;
     display: flex;
@@ -197,17 +198,17 @@ h2 {
     align-items: center;
     padding-bottom: 15px;
   }
-  .container5 {
+  .containerNosotrosGaleria {
     width: 100%;
     height: 1500px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
-  .container5_1 {
+  .containersectionNosotrosGaleria_5 {
     max-height: 100vh;
   }
-  .Section5 h2 {
+  .sectionNosotrosGaleria h2 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -248,12 +249,12 @@ h2 {
 
   /*Media Query*/
 @media (max-width: 1660px){
-  .container3_1{
+  .containerNosotrosMision_3{
     grid-template-columns: 60% 40%;
   }
 }
 @media (max-width: 1550px){
-  .container3_1{
+  .containerNosotrosMision_3{
     grid-template-columns: 70% 30%;
   }
   p {
@@ -272,22 +273,22 @@ h2 {
   p {
     font-size: 2rem;
   }
-  .container1_1{
+  .containerNosotrosSomos_1{
     grid-template-columns: 1fr;
   }
-  .container1_1 img{
+  .containerNosotrosSomos_1 img{
     grid-row: 1/2;
   }
-  .container2_1{
+  .containerNosotrosVision_2{
     grid-template-columns: 1fr;
   }
-  .container3_1{
+  .containerNosotrosMision_3{
     grid-template-columns: 1fr;
   }
-  .container3_1 img{
+  .containerNosotrosMision_ img{
     grid-row: 1/2;
   }
-  .container5_1{
+  .containersectionNosotrosGaleria_5{
     max-height: 0vh;
   }
   .search {
