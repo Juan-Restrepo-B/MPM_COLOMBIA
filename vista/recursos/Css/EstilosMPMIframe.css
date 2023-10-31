@@ -13,7 +13,7 @@
 }
 
 /*Section 1*/
-.section1 {
+.sectionSlider {
     width: 1175px;
 }
 .area {
@@ -75,10 +75,10 @@
 }
 .text1 h4 {
     font-family: 'Montserrat', sans-serif;
-    width: 270px;
+    width: 280px;
     color: var(--Secundario);
     font-size: 1.7rem;
-    margin: 0 0;
+    margin: 12px 0;
 }
 .Slogan {
     grid-column: 4/13;

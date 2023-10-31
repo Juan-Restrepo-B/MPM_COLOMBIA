@@ -12,23 +12,8 @@
     --FuentePrincipal: 'Montserrat', sans-serif;
     --FuenteSecundaria: ;
 }
-
-footer{
-  left:0px;
-  bottom:0px;
-  width:100%;
-  background:#747474;
-  font-size: 0.9rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #FFF;
-}
-.class1{
-  color: rgb(0, 255, 0);
-}
 /*Section 1*/
-.section1 {
+.sectionPrincipal {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -36,7 +21,7 @@ footer{
   align-items: center;
   overflow: hidden;
 }
-.section1 iframe {
+.sectionPrincipal iframe {
   background-size: cover;
   overflow-y: auto;
   overflow-x: auto;
@@ -46,7 +31,7 @@ footer{
 }
 
   /*Section 2*/
-.section2 {
+.sectionPrincipalNosotros {
   background-color: var(--Secundario3);
   width: 100%;
   display: flex;
@@ -55,11 +40,11 @@ footer{
   align-items: center;
   padding-bottom: 15px;
 }
-.container1 {
+.containerPrincipalNosotros {
   margin: 20px 0px;
   width: 90%;
 }
-.container1 h2 {
+.containerPrincipalNosotros h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
   width: 100%;
@@ -68,18 +53,18 @@ footer{
   justify-content: center;
   align-items: center;
 }
-.container1_1 {
+.containerPrincipalNosotrostxt {
   padding-top: 20px;
   width: 95%;
   display: grid;
   grid-template-columns: 70% 30%;
   grid-gap: 2rem;
 }
-.container1_1 img{
+.containerPrincipalNosotrostxt img{
   width: 100%;
   border-radius: 20%;
 }
-.container1_1 p {
+.containerPrincipalNosotrostxt p {
   font-family: 'Montserrat', sans-serif;
   color: var(--Negro);
   font-size: 3.5rem;
@@ -92,7 +77,7 @@ footer{
   font-weight: bold;
 }
 
-.opcion1 {
+.opcionPrincipal {
   padding-top: 50px;
   display: flex;
   align-items: center;
@@ -131,7 +116,7 @@ footer{
 }
 
 /*Section 3*/
-.section3 {
+.sectionPrincipalProductos {
   background-color: var(--Blanco);
   width: 100%;
   display: flex;
@@ -140,11 +125,11 @@ footer{
   align-items: center;
   overflow: hidden;
 }
-.container2 {
+.containerPrincipalProductos {
   margin: 20px 0px;
   width: 100%;
 }
-.container2 h2 {
+.containerPrincipalProductos h2 {
   font-size: 4rem;
   width: 100%;
   display: flex;
@@ -153,7 +138,7 @@ footer{
   align-items: center;
 }
 
-.productos1_1 {
+.PrincipalProductosCard {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -193,60 +178,60 @@ footer{
 .card:hover .content {
   opacity: 1;
 }
-.card1{
-  background: center url(../Img/Index/Section3/Serie-BID.png) no-repeat;
+.cardProdcto1{
+  background: center url(../../imagenes/Index/Section3/Serie-BID.png) no-repeat;
   background-size: contain;
   grid-column: 1/5;
 }
-.card2{
-  background: center url(../Img/Index/Section3/PTO.jpg) no-repeat;
+.cardProdcto2{
+  background: center url(../../imagenes/Index/Section3/PTO.jpg) no-repeat;
   background-size: contain;
   grid-column: 2/5;
 }
-.card3{
-  background: center url(../Img/Index/Section3/PowerPack.jpg) no-repeat;
+.cardProdcto3{
+  background: center url(../../imagenes/Index/Section3/PowerPack.jpg) no-repeat;
   background-size: contain;
   grid-column: 3/5;
 }
-.card4{
-  background: center url(../Img/Index/Section3/Winche.jpg) no-repeat;
+.cardProdcto4{
+  background: center url(../../imagenes/Index/Section3/Winche.jpg) no-repeat;
   background-size: contain;
   grid-column: 4/5;
 }
-.card5{
-  background: center url(../Img/Index/Section3/m5pb.png) no-repeat;
+.cardProdcto5{
+  background: center url(../../imagenes/Index/Section3/m5pb.png) no-repeat;
   background-size: contain;
   grid-column: 5/5;
 }
-.card6{
-  background: center url(../Img/Marcas_Aliadas/Vacio.jpg) no-repeat;
+.cardProdcto6{
+  background: center url(../../imagenes/Marcas_Aliadas/Vacio.jpg) no-repeat;
   background-size: contain;
   grid-column: 5/5;
 }
 
 @media (max-width: 1550px){
   /*Section 2*/
-  .container1_1 p {
+  .containerPrincipalNosotrostxt p {
     font-size: 3rem;
   }
 }
 @media (max-width: 1350px){
   /*Section 1*/
-  .section1 {
+  .sectionPrincipal {
     width: 0;
   }
-  .section1 iframe {
+  .sectionPrincipal iframe {
     width: 0;
     height: 0;
   }
   /*Section 2*/
-  .container1_1 p {
+  .containerPrincipalNosotrostxt p {
     font-size: 2.5rem;
   }
 }
 @media (max-width: 1040px) {
-  /*Section2*/
-  .container1_1 {
+  /*sectionPrincipalNosotros*/
+  .containerPrincipalNosotrostxt {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -257,14 +242,14 @@ footer{
 }
 @media (max-width: 650px){
   /*Section 2*/
-  .container1_1 p {
+  .containerPrincipalNosotrostxt p {
     font-size: 2rem;
   }
-  .container1 h2 {  
+  .containerPrincipalNosotros h2 {  
     font-size: 3rem;
   }
     /*Section 3*/
-    .container2 h2 {  
+    .containerPrincipalProductos h2 {  
       font-size: 3rem;
     }
 }
