@@ -1,7 +1,7 @@
 <body>
     <div class="wrapper">
         <div class="sectionPrincipal">
-            <iframe src="Iframe.html" frameborder="0" scrolling="no"></iframe>
+            <iframe src="vista/paginas/slider.php" frameborder="0" scrolling="no"></iframe>
         </div>
         <div class="sectionPrincipalNosotros">
             <div class="containerPrincipalNosotros">
@@ -14,17 +14,17 @@
                 </div>
                 <div class="opcionPrincipal">
                     <div class="button1 button_wrapper">
-                        <a href="./Pages/Nosotros.html" class="button">
+                        <a href="?pagina=nosotros" class="button">
                             NOSOTROS
                         </a>
                     </div>
                     <div class="button2 button_wrapper">
-                        <a href="./Pages/Marcas_Aliadas.html" class="button">
+                        <a href="?pagina=marcas_alidas" class="button">
                             MARCAS ALIADAS
                         </a>
                     </div>
                     <div class="button3 button_wrapper">
-                        <a href="./Pages/Contactenos.html" class="button">
+                        <a href="?pagina=contactenos" class="button">
                             CONTACTENOS
                         </a>
                     </div>
@@ -36,35 +36,35 @@
                 <h2>PRODUCTOS</h2>
                 <div class="PrincipalProductos">
                     <div class="PrincipalProductosCard">
-                        <div class="card card1">
+                        <div class="card cardProdcto1">
                             <div class="content">
                                 <h3>BOMBAS Y MOTORES <br> <span>OLEO-HIDRÁULICOS</span></h3>
                                 <br>
                                 <!--<a href="#">Ver Productos</a>-->
                             </div>
                         </div>
-                        <div class="card card2">
+                        <div class="card cardProdcto2">
                             <div class="content">
                                 <h3>TOMA DE FUERZA <br> <span>OLEO-HIDRÁULICOS</span></h3>
                                 <br>
                                 <!--<a href="#">Ver Productos</a>-->
                             </div>
                         </div>
-                        <div class="card card3">
+                        <div class="card cardProdcto3">
                             <div class="content">
                                 <h3>POWERPACK'S <br> <span>OLEO-HIDRÁULICOS</span></h3>
                                 <br>
                                 <!--<a href="#">Ver Productos</a>-->
                             </div>
                         </div>
-                        <div class="card card4">
+                        <div class="card cardProdcto4">
                             <div class="content">
                                 <h3>WINCHES <br> <span>OLEO-HIDRÁULICOS</span></h3>
                                 <br>
                                 <!--<a href="#">Ver Productos</a>-->
                             </div>
                         </div>
-                        <div class="card card5">
+                        <div class="card cardProdcto5">
                             <div class="content">
                                 <h3>ACCIONADORES, ADAPTADORES, MANDOS Y ACCESORIOS <br> <span>OLEO-HIDRÁULICOS</span>
                                 </h3>
@@ -72,7 +72,7 @@
                                 <!--<a href="#">Ver Productos</a>-->
                             </div>
                         </div>
-                        <div class="card card6">
+                        <div class="card cardProdcto6">
                             <div class="content">
                                 <h3>LINEA DE VACIO<br>
                                 </h3>

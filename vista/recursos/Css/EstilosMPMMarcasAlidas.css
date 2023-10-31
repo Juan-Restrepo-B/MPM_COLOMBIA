@@ -19,7 +19,7 @@ h2 {
   font-size: 4rem;
 }
 /*Section1*/
-.Section1 {
+.sectionMarcas_alidas {
     background-color: var(--Blanco);
     width: 100%;
     height: 60vh;
@@ -29,14 +29,14 @@ h2 {
     align-items: center;
     overflow: hidden;
   }
-.content1_1 {
+.contentMarcas_alidas_1 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 10%;
   }
-  .card {
+  .cardMarcas_alidas {
     margin: 2rem;
     width: 180px;
     height: 180px;
@@ -44,7 +44,7 @@ h2 {
     box-shadow: 3px 5px 5px rgba(3, 32, 51, 0.6);
     overflow: hidden;
   }
-  .content {
+  .contentMarcas_alidas {
     width: 100%;
     height: 200px;
     display: flex;
@@ -55,43 +55,43 @@ h2 {
     opacity: 0;
     transition: .5s;
   }
-  .content h3{
+  .contentMarcas_alidas h3{
     color: var(--Blanco);
     text-align: center;
     font-size: 1.5rem;
   }
-  .content span{
+  .contentMarcas_alidas span{
     font-size: 1.5rem;
   }
-  .content a {
+  .contentMarcas_alidas a {
     color: var(--Blanco);
   }
-  .card:hover .content {
+  .cardMarcas_alidas:hover .contentMarcas_alidas {
     opacity: 1;
   }
-  .card1{
-    background: center url(.vista/imagenes/Marcas_Aliadas/ABER.png) no-repeat;
+  .cardMarcas_alidas1{
+    background: center url(../../imagenes/Marcas_Aliadas/ABER.png) no-repeat;
     background-size: contain;
     grid-column: 1/5;
   }
-  .card2{
-    background: center url(.vista/imagenes/Marcas_Aliadas/BEZARES-150x150.png) no-repeat;
+  .cardMarcas_alidas2{
+    background: center url(../../imagenes/Marcas_Aliadas/BEZARES-150x150.png) no-repeat;
     background-size: contain;
     grid-column: 2/5;
   }
-  .card3{
-    background: center url(.vista/imagenes/Marcas_Aliadas/Logo_Hertell.png) no-repeat;
+  .cardMarcas_alidas3{
+    background: center url(../../imagenes/Marcas_Aliadas/Logo_Hertell.png) no-repeat;
     background-size: contain;
     grid-column: 3/5;
   }
-  .card4{
-    background: center url(.vista/imagenes/Marcas_Aliadas/LOGO-SHIDCO-VECTOR-01-300x105.png) no-repeat;
+  .cardMarcas_alidas4{
+    background: center url(../../imagenes/Marcas_Aliadas/LOGO-SHIDCO-VECTOR-01-300x105.png) no-repeat;
     background-size: contain;
     grid-column: 4/5;
   }
 
   @media(max-width: 450px){
-    .Section1{
+    .sectionMarcas_alidas{
        height: 100vh
     }
     h2{

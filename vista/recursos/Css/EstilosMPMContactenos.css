@@ -12,14 +12,14 @@
     --FuenteSecundaria: ;
 }
 /*Section 1*/
-.Section1 {
+.sectionContactenos {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .Section1_1 {
+  .sectionContactenos_1 {
     margin: 20px 0px;
     width: 90%;
     display: flex;
@@ -27,18 +27,18 @@
     justify-content: center;
     align-items: center;
   }
-  .Section1_1 h2{
+  .sectionContactenos_1 h2{
     text-align: center;
     padding-bottom: 15px;
     font-size: 3rem;
   }
-  .Section1_1 img {
+  .sectionContactenos_1 img {
     width: 100%;
     border-radius: 10%;
     box-shadow: 8px 10px 10px rgba(3, 32, 51, 0.6);
   }
-  /*Section2*/
-  .Section2 {
+  /*sectionContactenosEmpleados*/
+  .sectionContactenosEmpleados {
     background-color: var(--Blanco);
     width: 100%;
     display: flex;
@@ -47,7 +47,7 @@
     align-items: center;
     overflow: hidden;
   }
-.Section2_1 {
+.sectionContactenosEmpleados_1 {
     position: relative;
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@
     flex-wrap: wrap;
     border-radius: 10%;
   }
-  .card {
+  .cardContactenosEmpleados {
     margin: 2rem;
     width: 180px;
     height: 210px;
@@ -63,7 +63,7 @@
     box-shadow: 3px 5px 5px rgba(3, 32, 51, 0.6);
     overflow: hidden;
   }
-  .content {
+  .contentContactenosEmpleados {
     position: relative;
     width: 100%;
     height: 100%;
@@ -77,43 +77,35 @@
     opacity: 0;
     transition: .5s;
   }
-  .content h3{
+  .contentContactenosEmpleados h3{
     color: var(--Primario);
     text-align: center;
     font-size: 1.5rem;
   }
-  .content h4{
+  .contentContactenosEmpleados h4{
     color: var(--Primario);
     text-align: center;
     font-size: 1rem;
   }
-  .content span{
+  .contentContactenosEmpleados span{
     font-size: 1.5rem;
   }
-  .content a {
+  .contentContactenosEmpleados a {
     color: var(--Blanco);
   }
-  .card:hover .content {
+  .cardContactenosEmpleados:hover .contentContactenosEmpleados {
     opacity: 1;
   }
-  .card1{
-    background: bottom url(.vista/imagenes/Contactenos/Asesores/ERNESTO.jpg) no-repeat;
+  .cardContactenosEmpleados1{
+    background: bottom url(../../imagenes/Contactenos/Asesores/STIVEN.png) no-repeat;
     background-size: contain;
   }
-  .card2{
-    background: bottom url(.vista/imagenes/Contactenos/Asesores/STIVEN.png) no-repeat;
+  .cardContactenosEmpleados2{
+    background: bottom url(../../imagenes/Contactenos/Asesores/Jhonny.jpg) no-repeat;
     background-size: contain;
   }
-  .card3{
-    background: bottom url(.vista/imagenes/Contactenos/Asesores/JORGE.jpg) no-repeat;
-    background-size: contain;
-  }
-  .card4{
-    background: bottom url(.vista/imagenes/Contactenos/Asesores/JUAN.png) no-repeat;
-    background-size: contain;
-  }
-  .card5{
-    background: bottom url(.vista/imagenes/Contactenos/Asesores/Jhonny.jpg) no-repeat;
+  .cardContactenosEmpleados3{
+    background: bottom url(../../imagenes/Contactenos/Asesores/JORGE.jpg) no-repeat;
     background-size: contain;
   }
   
@@ -379,7 +371,7 @@
 }
 
 .cardc {
-    background: bottom url(.vista/imagenes/Contactenos/Asesores/OMAR.jpg) no-repeat;
+    background: bottom url(../../imagenes/Contactenos/Asesores/OMAR.jpg) no-repeat;
     background-size: contain;
     margin: 2rem;
     width: 180px;

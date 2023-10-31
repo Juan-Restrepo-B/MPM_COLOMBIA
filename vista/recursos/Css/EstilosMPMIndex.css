@@ -178,33 +178,33 @@
 .card:hover .content {
   opacity: 1;
 }
-.card1{
-  background: center url(../../../vista/imagenes/Index/Section3/Serie-BID.png) no-repeat;
+.cardProdcto1{
+  background: center url(../../imagenes/Index/Section3/Serie-BID.png) no-repeat;
   background-size: contain;
   grid-column: 1/5;
 }
-.card2{
-  background: center url(../../../vista/imagenes/Index/Section3/PTO.jpg) no-repeat;
+.cardProdcto2{
+  background: center url(../../imagenes/Index/Section3/PTO.jpg) no-repeat;
   background-size: contain;
   grid-column: 2/5;
 }
-.card3{
-  background: center url(../../../vista/imagenes/Index/Section3/PowerPack.jpg) no-repeat;
+.cardProdcto3{
+  background: center url(../../imagenes/Index/Section3/PowerPack.jpg) no-repeat;
   background-size: contain;
   grid-column: 3/5;
 }
-.card4{
-  background: center url(../../../vista/imagenes/Index/Section3/Winche.jpg) no-repeat;
+.cardProdcto4{
+  background: center url(../../imagenes/Index/Section3/Winche.jpg) no-repeat;
   background-size: contain;
   grid-column: 4/5;
 }
-.card5{
-  background: center url(../../../vista/imagenes/Index/Section3/m5pb.png) no-repeat;
+.cardProdcto5{
+  background: center url(../../imagenes/Index/Section3/m5pb.png) no-repeat;
   background-size: contain;
   grid-column: 5/5;
 }
-.card6{
-  background: center url(../../../vista/imagenes/Marcas_Aliadas/Vacio.jpg) no-repeat;
+.cardProdcto6{
+  background: center url(../../imagenes/Marcas_Aliadas/Vacio.jpg) no-repeat;
   background-size: contain;
   grid-column: 5/5;
 }
