@@ -20,4 +20,4 @@ if (!$conn)
 	die("No ahi conexion:".mysqli_connect_error());
 }
 
-?>  
+?>

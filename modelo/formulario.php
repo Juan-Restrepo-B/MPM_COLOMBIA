@@ -1,6 +1,6 @@
 <?php
 
-include("conexion.php");
+include("modelo/conexion.php");
 
 $base = mysqli_query($conn, "SELECT * FROM Formulario");
 if (!$base) {
