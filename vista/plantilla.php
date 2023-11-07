@@ -19,7 +19,7 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" type="text/css" href="vista/recursos/Css/General.css">
-        <link rel="stylesheet" href="Js/Catalogo.js">
+        <!-- <link rel="stylesheet" href="Js/Catalogo.js"> -->
     <title>MPM DE COLOMBIA SAS</title>
 </head>
 
@@ -49,7 +49,6 @@
         } else {
             include "paginas/principal.php"; // Página por defecto si $_GET["pagina"] no está definida.
         }
-
 
         ?>
 
