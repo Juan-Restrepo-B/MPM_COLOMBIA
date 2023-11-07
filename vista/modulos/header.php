@@ -6,10 +6,11 @@
                     <li><a href="?pagina=principal"><img src="vista/imagenes/Logos/cropped-LOGOMPM-150x150-1.png" alt=""></a></li>
                     <li><a class='active' href="?pagina=principal">HOME</a></li>
                     <li><a href="?pagina=catalogo">CATALOGO</a></li>
+                    <li><a href="?pagina=tienda">TIENDA</a></li>
                 </div>
                 <div class="list2">
                     <li>
-                        <a href="#">
+                        <a href="?pagina=logging">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"
                                 style="fill: rgba(175, 30, 47, 1);">
                                 <path

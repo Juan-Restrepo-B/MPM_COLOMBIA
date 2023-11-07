@@ -1,0 +1,114 @@
+/*Estructura Color y Caligrafia*/
+:root {
+    --Primario: rgb(239, 25, 35);
+    --Primario1: rgb(175, 30, 47);
+    --Secundario: rgb(103, 103, 105);
+    --Secundario1: rgb(75, 75, 75);
+    --Secundario2: rgba(214, 214, 214, 0.651);
+    --Secundario4: rgb(182, 182, 182);
+    --Blanco: #FFF;
+    --Negro: #000;
+
+    --FuentePrincipal: 'Montserrat', sans-serif;
+    --FuenteSecundaria: ;
+}
+
+.custom-contenedor {
+    margin: 0 auto;
+    /* max-width: 1200px; */
+    width: 93%;
+    padding: 30px 0;
+}
+
+.custom-imagen-formulario {
+    background: url('../../imagenes/Logging/Portada_Logging.jpeg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 275px;
+    flex: 0 0 calc(60%);
+    position: relative;
+}
+
+.custom-imagen-formulario::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, rgba(239, 25, 36, 0.071), rgba(175, 30, 47, 0.116));
+}
+
+.custom-formulario {
+    background-color: var(--Primario);
+    padding: 50px;
+    width: 100%;
+}
+
+.custom-texto-formulario h2,
+.custom-input label,
+.custom-password-olvidada a{
+    color: var(--Blanco);
+}
+
+.custom-texto-formulario h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.custom-texto-formulario p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.custom-input label{
+    text-align: left;
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.custom-input span{
+    font-size: 20px;
+}
+
+.custom-input input{
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.custom-input input[type="submit"] {
+    background-color: var(--Secundario4);
+    color: var(--Blanco);
+    font-size: 22px;
+    font-weight: bold;
+    transition: background-color .3s ease-in-out;
+    margin-top: 20px;
+}
+
+.custom-input input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: var(--Secundario);
+}
+
+.custom-password-olvidada a{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+@media (min-width:768px) {
+    .custom-formulario {
+        border-radius: 0 10px 10px 0;
+    }
+    .custom-contenedor-formulario {
+        display: flex;
+    }   
+    .custom-imagen-formulario {
+        height: auto;
+        border-radius: 10px 0 0 10px;
+    }
+}

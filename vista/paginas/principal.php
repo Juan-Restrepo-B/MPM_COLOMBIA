@@ -5,7 +5,7 @@
         </div>
         <div class="sectionPrincipalNosotros">
             <div class="containerPrincipalNosotros">
-                <h2>MPM DE COLOMBIA S.A.S.</h2>
+                <h1>MPM DE COLOMBIA S.A.S.</h1>
                 <div class="containerPrincipalNosotrostxt">
                     <P>Somos Una Empresa Importadora De Repuestos Oleo-Hidráulicos, Ofrecemos:
                         Bombas De Engranajes, Bombas De Paletas, Bomba De Pistones, Bombas De Vacío,
