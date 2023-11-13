@@ -2,11 +2,19 @@
         <div class="custom-imagen-formulario">
         </div>
         <form action="" class="custom-formulario">
+            <div class="custom-texto-formulario">
+                <h2>Bienvenidos</h2>
+                <p>Crea tu cuenta</p>
+            </div>
+            <h3>Tipo de Cuenta</h3>
+            <div class="custom_input">
+                <input type="radio" placeholder="Persona natural">
+                <label for="typeuser">Persona natural</label>
+
+                <input type="radio" placeholder="Persona natural">
+                <label for="typeuser">Persona juridica</label>
+            </div>
             <div class="custom-input">
-                <div class="custom-texto-formulario">
-                    <h2>Bienvenidos de nuevo</h2>
-                    <p>Inicia sesión con tu cuenta</p>
-                </div>
                 <label for="usuario">Usuario:</label>
                 <input placeholder="Ingresa tu usuario" type="text" id="usuario"> 
             </div>
@@ -15,8 +23,7 @@
                 <input placeholder="Ingresa tu contaseña" type="password" id="contaseña"> 
             </div>
             <div class="custom-password-olvidada">
-                <a href="#">¿Olvidaste tu contaseña?</a><br>
-                <a href="?pagina=register">Crear Cuenta Nueva</a>
+                <a href="#">¿Olvidaste tu contaseña?</a>
             </div>
             <div class="custom-input">
                 <input type="submit" id="enviar" value="Enviar"> 

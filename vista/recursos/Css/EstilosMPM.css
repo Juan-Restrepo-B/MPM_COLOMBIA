@@ -247,7 +247,13 @@ header {
     color: #FFF;
     font-size: 4rem;
   }
-  .ultimo div svg, p {
+  .ultimo div svg {
+    margin-top: 20px;
+    display: inline-block;
+    color: #FFF;
+    font-size: 2rem;
+  }
+  .ultimo p {
     margin-top: 20px;
     display: inline-block;
     color: #FFF;
@@ -300,7 +306,13 @@ header {
     color: #FFF;
     font-size: 4rem;
   }
-  div svg, p {
+  div svg {
+    margin-top: 20px;
+    display: inline-block;
+    color: #FFF;
+    font-size: 2rem;
+  }
+  .ultimo p {
     margin-top: 20px;
     display: inline-block;
     color: #FFF;
