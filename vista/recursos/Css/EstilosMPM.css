@@ -9,7 +9,7 @@
     --Negro: #000;
 
     --FuentePrincipal: 'Montserrat', sans-serif;
-    --FuenteSecundaria: ;
+    --FuenteSecundaria: 'Montserrat', sans-serif;
 }
 
 /*Globales*/
@@ -95,7 +95,7 @@ header {
 }
 .content_menu {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
     grid-gap: 2rem;
 }
 .list img {
@@ -186,7 +186,13 @@ header {
 .list2 li a:hover::before {
     width: 100%;
 }
-
+.custom-usuario h5 {
+  font-size: 1.2rem;
+}
+.custom-usuario p {
+  font-size: 1rem;
+  color: var(--Primario);
+}
 /*Redes Sociales*/
 #RedesSociales {
     width: 50px;
