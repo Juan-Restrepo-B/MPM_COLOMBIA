@@ -46,8 +46,8 @@
 }
 
 .custom-texto-formulario h2,
-.custom-input label,
-.custom-password-olvidada a{
+.custom-input-persona label,
+.custom-password-olvidada a {
     color: var(--Blanco);
 }
 
@@ -61,19 +61,55 @@
     text-align: center;
 }
 
-.custom-input label{
+.custom-input-persona label {
     text-align: left;
     display: block;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
 }
 
-.custom-input span{
+.ocultar select {
+    display: none;
+}
+
+.ocultar label {
+    display: none;
+}
+
+.custom-input-persona span {
     font-size: 20px;
 }
 
-.custom-input input{
+.custom-input-persona {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.custom-columna {
+    flex: 1;
+}
+
+.custom-option {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.custom-option label {
+    color: var(--Blanco);
+}
+
+.custom-h3 {
+    margin-top: 20px;
+    color: var(--Blanco);
+}
+
+.custom-input-persona input {
     width: 100%;
     padding: 10px 16px;
     border-radius: 10px;
@@ -81,7 +117,43 @@
     border: none;
 }
 
-.custom-input input[type="submit"] {
+.custom-file input[type="file"] {
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+/* Estilos específicos para ocultar el botón "Examinar" en algunos navegadores */
+.custom-file input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file input[type="file"]::before {
+    width: 50%;
+    border: solid 2px var(--Blanco);
+    padding: 10px 16px;
+    content: 'Seleccionar archivo';
+    display: inline-block;
+    background: transparent;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-file input[type="file"]:hover::before {
+    background: #ffffff;
+    color: #fe1923;
+}
+
+.custom-input-persona select {
+    width: 100%;
+    height: 30px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.custom-input-persona input[type="submit"] {
     background-color: var(--Secundario4);
     color: var(--Blanco);
     font-size: 22px;
@@ -90,23 +162,26 @@
     margin-top: 20px;
 }
 
-.custom-input input[type="submit"]:hover {
+.custom-input-persona input[type="submit"]:hover {
     cursor: pointer;
     background-color: var(--Secundario);
 }
 
-.custom-password-olvidada a{
+.custom-password-olvidada a {
     display: inline-block;
     text-decoration: none;
     margin-top: 10px;
 }
+
 @media (min-width:768px) {
     .custom-formulario {
         border-radius: 0 10px 10px 0;
     }
+
     .custom-contenedor-formulario {
         display: flex;
-    }   
+    }
+
     .custom-imagen-formulario {
         height: auto;
         border-radius: 10px 0 0 10px;

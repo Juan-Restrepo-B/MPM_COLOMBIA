@@ -22,7 +22,6 @@
         <link rel="stylesheet" type="text/css" href="vista/recursos/Css/General.css">
         <!-- <link rel="stylesheet" href="Js/Catalogo.js"> -->
     <title>MPM DE COLOMBIA SAS</title>
-    
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">

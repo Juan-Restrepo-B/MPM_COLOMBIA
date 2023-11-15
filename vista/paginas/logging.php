@@ -2,11 +2,11 @@
         <div class="custom-imagen-formulario">
         </div>
         <form action="" class="custom-formulario">
+            <div class="custom-texto-formulario">
+                <h2>Bienvenidos de nuevo</h2>
+                <p>Inicia sesión con tu cuenta</p>
+            </div>
             <div class="custom-input">
-                <div class="custom-texto-formulario">
-                    <h2>Bienvenidos de nuevo</h2>
-                    <p>Inicia sesión con tu cuenta</p>
-                </div>
                 <label for="usuario">Usuario:</label>
                 <input placeholder="Ingresa tu usuario" type="text" id="usuario"> 
             </div>

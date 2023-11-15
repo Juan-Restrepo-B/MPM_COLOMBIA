@@ -47,7 +47,7 @@
 
 .custom-texto-formulario h2,
 .custom-input label,
-.custom-password-olvidada a{
+.custom-password-olvidada a {
     color: var(--Blanco);
 }
 
@@ -61,7 +61,7 @@
     text-align: center;
 }
 
-.custom-input label{
+.custom-input label {
     text-align: left;
     display: block;
     font-size: 22px;
@@ -69,11 +69,11 @@
     margin-top: 20px;
 }
 
-.custom-input span{
+.custom-input span {
     font-size: 20px;
 }
 
-.custom-input input{
+.custom-input input {
     width: 100%;
     padding: 10px 16px;
     border-radius: 10px;
@@ -95,18 +95,21 @@
     background-color: var(--Secundario);
 }
 
-.custom-password-olvidada a{
+.custom-password-olvidada a {
     display: inline-block;
     text-decoration: none;
     margin-top: 10px;
 }
+
 @media (min-width:768px) {
     .custom-formulario {
         border-radius: 0 10px 10px 0;
     }
+
     .custom-contenedor-formulario {
         display: flex;
-    }   
+    }
+
     .custom-imagen-formulario {
         height: auto;
         border-radius: 10px 0 0 10px;
