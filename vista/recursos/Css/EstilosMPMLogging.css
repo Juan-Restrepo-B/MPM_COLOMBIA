@@ -47,7 +47,7 @@
 
 .custom-texto-formulario h2,
 .custom-input label,
-.custom-password-olvidada a {
+.custom-link-a a {
     color: var(--Blanco);
 }
 
@@ -82,7 +82,8 @@
 }
 
 .custom-input input[type="submit"] {
-    background-color: var(--Secundario4);
+    background-color: transparent;
+    border: solid 2px var(--Blanco);
     color: var(--Blanco);
     font-size: 22px;
     font-weight: bold;
@@ -92,13 +93,19 @@
 
 .custom-input input[type="submit"]:hover {
     cursor: pointer;
-    background-color: var(--Secundario);
+    background-color: var(--Secundario4);
+    color: var(--Negro);
+    border: solid 2px var(--Negro);
 }
 
-.custom-password-olvidada a {
+.custom-link-a a {
     display: inline-block;
     text-decoration: none;
     margin-top: 10px;
+    transition: color .3s ease-in-out;
+}
+.custom-link-a a:hover {
+    color: var(--Secundario);
 }
 
 @media (min-width:768px) {

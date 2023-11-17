@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="custom-input-persona">
-                <div class="custom-columna custom-file">
+                <div class="custom-columna custom-file cincuenta">
                     <label for="">Rut</label>
                     <input type="file" name="" id="" required>
                 </div>
@@ -118,20 +118,19 @@
                 </div>
             </div>
             <div class="custom-input-persona">
-                <div class="custom-columna custom-file">
+                <div class="custom-columna custom-file cien">
                     <label for="">Rut</label>
                     <input type="file" name="" id="" required>
                 </div>
-                <div class="custom-columna custom-file">
+                <div class="custom-columna custom-file cien">
                     <label for="">Camara Comercio</label>
                     <input type="file" name="" id="" required>
                 </div>
             </div>
         </div>
+        <div class="custom-input">
+            <input type="submit" value="Enviar">
         </div>
-
-        <!-- Otros campos generales del formulario -->
-        <input type="submit" value="Enviar">
     </form>
 </div>
 

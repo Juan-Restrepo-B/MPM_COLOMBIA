@@ -14,7 +14,7 @@
                 <label for="contaseña">Contaseña:</label>
                 <input placeholder="Ingresa tu contaseña" type="password" id="contaseña"> 
             </div>
-            <div class="custom-password-olvidada">
+            <div class="custom-link-a">
                 <a href="#">¿Olvidaste tu contaseña?</a><br>
                 <a href="?pagina=register">Crear Cuenta Nueva</a>
             </div>

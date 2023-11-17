@@ -1,5 +1,4 @@
 <?php
-    //session_start();   
 
 //$usuarios = ctrUsuarios::ctrMostrarUsuarios();
 
@@ -39,7 +38,8 @@
         <?php
 
         if (isset($_GET["pagina"])) {
-            $paginasPermitidas = ["principal", "catalogo", "nosotros", "marcas_alidas", "contactenos", "logging", "register"];
+            $paginasPermitidas = ["principal", "catalogo", "nosotros", "marcas_alidas",
+            "contactenos", "logging", "register", "tienda"];
             $paginaSolicitada = $_GET["pagina"];
 
             if (in_array($paginaSolicitada, $paginasPermitidas)) {

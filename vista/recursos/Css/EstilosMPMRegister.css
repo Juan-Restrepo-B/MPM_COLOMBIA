@@ -119,7 +119,8 @@
 
 .custom-file input[type="file"] {
     border-radius: 5px;
-    color: #ffffff;
+    /* color: #ffffff; */
+    color: transparent;
 }
 
 /* Estilos específicos para ocultar el botón "Examinar" en algunos navegadores */
@@ -128,7 +129,6 @@
 }
 
 .custom-file input[type="file"]::before {
-    width: 50%;
     border: solid 2px var(--Blanco);
     padding: 10px 16px;
     content: 'Seleccionar archivo';
@@ -137,6 +137,13 @@
     color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
+}
+.cien {
+    width: 100%;
+}
+
+.cincuenta{
+    width: 50%;
 }
 
 .custom-file input[type="file"]:hover::before {

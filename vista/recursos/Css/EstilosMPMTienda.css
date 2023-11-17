@@ -1,0 +1,98 @@
+/*Estructura Color y Caligrafia*/
+:root {
+    --Primario: rgb(239, 25, 35);
+    --Primario1: rgb(175, 30, 47);
+    --Secundario: rgb(103, 103, 105);
+    --Secundario1:rgb(75, 75, 75);
+    --Secundario2: rgba(214, 214, 214, 0.651);
+    --Secundario3: rgba(233, 233, 233, 0.473);
+    --Secundario4: rgba(214, 214, 214, 1);
+    --Blanco: #FFF;
+    --Negro: #000;
+
+    --FuentePrincipal: 'Montserrat', sans-serif;
+    --FuenteSecundaria: ;
+}
+
+.content_menu-tienda {
+  width: 100%;
+  height: 4.5rem;
+}
+
+.custom-list-tienda {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.custom-list-tienda > * {
+  flex: 0 0 20%;
+}
+
+.custom-list-tienda > :nth-child(2) {
+  flex-basis: 60%;
+}
+
+.custom-list-tienda li {
+  list-style: none;
+  width: 100%;
+  height: 3rem;
+  text-decoration: none;
+  color: var(--Primario1);
+  font-family: var(--FuenteSecundaria);
+  font-weight: 900;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.info-lista {
+  margin-left: 65px;
+  width: 200px;
+  background-color: var(--Secundario4);
+  border-radius: 10px;
+  padding: 10px 5px;
+}
+
+.search-bar{
+  width: 50%;
+  height: 20px;
+}
+
+.search-bar form{
+  display: flex;
+  justify-content: center;
+}
+
+.custom-search {
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 40vw;  
+  height: 30px;
+  background: var(--Blanco);
+  border: solid 2px var(--Primario);
+  font-size: 10pt;
+  color: var(--Negro);
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius:10px;
+  margin: 4.5px 0;
+}
+.btnsearch {
+  background-color: var(--Blanco);
+  border: solid 2px var(--Primario);
+  color: var(--Negro);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 20px;
+  margin: 3px 5px;
+  text-transform: uppercase;
+}
