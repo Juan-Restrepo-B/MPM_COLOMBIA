@@ -38,7 +38,65 @@
         </nav>
     </header>
     <div class="custom-container-tienda">
-        Hola mundo
+        <section class="custom-section-portada">
+            <div class="custom-portada">
+                <div class="custom-portada-izquierda">
+                    <video src="vista/imagenes/Tienda/videoMPM.mp4"></video>
+                </div>
+                <div class="custom-portada-central">
+                    <img src="vista/imagenes/Tienda/Feria_Bogota3.jpeg" alt="Foto del Stand Feria">
+                </div>
+                <div class="custom-portada-derecha">
+                    <img src="vista/imagenes/Tienda/Feria_Bogota3.jpeg" alt="">
+                    <img src="vista/imagenes/Tienda/Feria_Bogota3.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="custom-section-info">
+            <div class="custom-info">
+                <a href=""><div class="custom-contenido-info">
+                    <div class="custom-svg"><svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:; height: 100%;">
+                    <path d="M20 4H4c-1.103 0-2 .897-2 2v2h20V6c0-1.103-.897-2-2-2zM2 18c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-6H2v6zm3-3h6v2H5v-2z"></path>
+                </svg></div>
+                <h3>PAGA TU FACTURA DE MANERA RAPIDA Y FACIL</h3>
+                </div></a>
+                <a href=""><div class="custom-contenido-info">
+                    <div class="custom-svg"><svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:; height: 100%;">
+                    <path d="M7.5 6.5C7.5 8.981 9.519 11 12 11s4.5-2.019 4.5-4.5S14.481 2 12 2 7.5 4.019 7.5 6.5zM20 21h1v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h17z"></path>
+                </svg></div>
+                <h3>EJECUTIVOS COMERCIALES ESPECIALIZADOS </h3>
+                </div></a>
+                <a href=""><div class="custom-contenido-info">
+                    <div class="custom-svg"><svg xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" style="fill: rgba(239, 25, 35, 1);transform: ;msFilter:; height: 100%;">
+                    <path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zM8.715 8c1.151 0 2 .849 2 2s-.849 2-2 2-2-.849-2-2 .848-2 2-2zm3.715 8H5v-.465c0-1.373 1.676-2.785 3.715-2.785s3.715 1.412 3.715 2.785V16zM19 15h-4v-2h4v2zm0-4h-5V9h5v2z"></path>
+                </svg></div>
+                <h3>PAGA TU FACTURA DE MANERA RAPIDA Y FACIL</h3>
+                </div></a>
+            </div>
+        </section>
+        <section class="custom-section-producto">
+            <h1>PRODUCTOS</h1>
+            <div class="custom-productos">
+                <a href="?pagina=producto?ref=winche15000"><div class="custom-elemto-producto">
+                    <img src="vista/imagenes/Tienda/Productos/WINCHE_15,000_LIBRAS.jpg" alt="Imagen de producto">
+                    <h2>Winche 15.000 Libras</h2>
+                    <p>Ver Productro</p>
+                </div></a>
+                <a href=""><div class="custom-elemto-producto">
+                    <img src="vista/imagenes/Tienda/Productos/WINCHE_15,000_LIBRAS.jpg" alt="">
+                    <h2>Winche 15.000 Libras</h2>
+                    <p>Ver Productro</p>
+                </div></a>
+                <a href=""><div class="custom-elemto-producto">
+                    <img src="vista/imagenes/Tienda/Productos/WINCHE_15,000_LIBRAS.jpg" alt="">
+                    <h2>Winche 15.000 Libras</h2>
+                    <p>Ver Productro</p>
+                </div></a>
+            </div>
+        </section>
     </div>
     <script>
         document.getElementById('producto').addEventListener('click', function() {
