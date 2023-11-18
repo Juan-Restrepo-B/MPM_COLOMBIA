@@ -9,15 +9,13 @@
 //     }
 // }
 
-$host = "localhost";
-$user = "mpmcolom_Desarrollo";
-$pass = "@DesarrolloMPM2023*";
-$database = "mpmcolom_From";
+$host = "45.169.100.168";
+$user = "mpmcolom_Jrestrepo";
+$pass = "J20uan.2023*";
 
-$conn = mysqli_connect($host, $user, $pass, $database);
+$conn = mysqli_connect($host, $user, $pass);
 if (!$conn)
 {
 	die("No ahi conexion:".mysqli_connect_error());
 }
-
 ?>
