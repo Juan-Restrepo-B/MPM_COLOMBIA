@@ -50,7 +50,7 @@
             </div>
             <div class="custom-input-persona">
                 <div class="custom-columna">
-                    <label for="">Correo Electronico:</label>
+                    <label for="">Correo:</label>
                     <input type="email" name="" id="" required>
                 </div>
                 <div class="custom-columna">
@@ -98,7 +98,7 @@
             </div>
             <div class="custom-input-persona">
                 <div class="custom-columna">
-                    <label for="">Correo Electronico:</label>
+                    <label for="">Correo:</label>
                     <input type="email" name="" id="" required>
                 </div>
                 <div class="custom-columna">
@@ -123,7 +123,7 @@
                     <input type="file" name="" id="" required>
                 </div>
                 <div class="custom-columna custom-file cien">
-                    <label for="">Camara Comercio</label>
+                    <label style="font-size: 19px;">Camara Comercio</label>
                     <input type="file" name="" id="" required>
                 </div>
             </div>
