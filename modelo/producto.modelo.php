@@ -27,7 +27,9 @@ if ($item) {
     $productoimg = $itemproducto['multimedia_nombre'];
     $nombre = $itemproducto['producto_nombre'];
     $descripcion = $itemproducto['producto_descripcion'];
+    $observaciones = $itemproducto['producto_observaciones'];
     $precio = $itemproducto['producto_precio'];
+    $stock = $itemproducto['producto_stock'];
     
 } else {
     echo "No se encontró ningún producto";
