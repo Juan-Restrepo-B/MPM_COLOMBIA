@@ -146,6 +146,7 @@ a {
   width: 90%;
   gap: 2rem;
   display: flex;
+  justify-content: center;
 }
 
 .custom-contenido-info {
@@ -192,7 +193,7 @@ a {
 .custom-elemto-producto {
   margin-top: 20px;
   padding: 10px;
-  width: 250px;
+  width: 255px;
   height: 270px;
   border: solid 2px var(--Secundario);
   border-radius: 5px;

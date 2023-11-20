@@ -40,28 +40,28 @@
                             <div class="content">
                                 <h3>BOMBAS Y MOTORES <br> <span>OLEO-HIDRÁULICOS</span></h3>
                                 <br>
-                                <!--<a href="#">Ver Productos</a>-->
+                                <a href="?pagina=tienda&familia=1">Ver Productos</a>
                             </div>
                         </div>
                         <div class="card cardProdcto2">
                             <div class="content">
                                 <h3>TOMA DE FUERZA <br> <span>OLEO-HIDRÁULICOS</span></h3>
                                 <br>
-                                <!--<a href="#">Ver Productos</a>-->
+                                <a href="?pagina=tienda&familia=3">Ver Productos</a>
                             </div>
                         </div>
                         <div class="card cardProdcto3">
                             <div class="content">
                                 <h3>POWERPACK'S <br> <span>OLEO-HIDRÁULICOS</span></h3>
                                 <br>
-                                <!--<a href="#">Ver Productos</a>-->
+                                <a href="?pagina=tienda&familia=4">Ver Productos</a>
                             </div>
                         </div>
                         <div class="card cardProdcto4">
                             <div class="content">
                                 <h3>WINCHES <br> <span>OLEO-HIDRÁULICOS</span></h3>
                                 <br>
-                                <!--<a href="#">Ver Productos</a>-->
+                                <a href="?pagina=tienda&familia=2">Ver Productos</a>
                             </div>
                         </div>
                         <div class="card cardProdcto5">
@@ -69,7 +69,7 @@
                                 <h3>ACCIONADORES, ADAPTADORES, MANDOS Y ACCESORIOS <br> <span>OLEO-HIDRÁULICOS</span>
                                 </h3>
                                 <br>
-                                <!--<a href="#">Ver Productos</a>-->
+                                <a href="?pagina=tienda">Ver Productos</a>
                             </div>
                         </div>
                         <div class="card cardProdcto6">

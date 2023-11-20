@@ -39,7 +39,7 @@
 
         if (isset($_GET["pagina"])) {
             $paginasPermitidas = ["principal", "catalogo", "nosotros", "marcas_alidas",
-            "contactenos", "logging", "register", "tienda"];
+            "contactenos", "logging", "register", "tienda", "producto"];
             $paginaSolicitada = $_GET["pagina"];
 
             if (in_array($paginaSolicitada, $paginasPermitidas)) {

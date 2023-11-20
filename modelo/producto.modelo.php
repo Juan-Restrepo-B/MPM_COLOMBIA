@@ -1,10 +1,14 @@
 <?php
-$referencia = isset($_GET['search']) ? $_GET['search'] : '';
+
+include("modelo/conexion.php");
+
+$referencia = isset($_GET['ref']) ? $_GET['ref'] : '';
 
 $item = mysqli_query($conn, "SELECT 
 producto_nombre, producto_descripcion, producto_precio,
-producto_stock,producto_observaciones, multimedia_nombre, 
-multimedia_contenido, familia_nombre, subfamilia_nombre
+producto_stock, producto_observaciones, multimedia_nombre, 
+multimedia_contenido, familia_nombre, subfamilia_nombre,
+idmultimedia
 FROM mpmcolom_Pruebas.pd_productos pp
 INNER JOIN mpmcolom_Pruebas.pd_multimedias pm 
 ON pp.producto_idinterna = pm.multimedia_idproducto
@@ -15,4 +19,18 @@ ON pp.producto_idinterna = ups.unionproducto_idproducto
 INNER JOIN mpmcolom_Pruebas.td_subfamilia ts 
 ON ts.idsubfamilia = ups.unionproducto_idsubfamilia
 WHERE producto_idexterna = '$referencia';");
+
+if ($item) {
+
+    $itemproducto = mysqli_fetch_assoc($item);
+
+    $productoimg = $itemproducto['multimedia_nombre'];
+    $nombre = $itemproducto['producto_nombre'];
+    $descripcion = $itemproducto['producto_descripcion'];
+    $precio = $itemproducto['producto_precio'];
+    
+} else {
+    echo "No se encontró ningún producto";
+}
+
 ?>
