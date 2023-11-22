@@ -94,7 +94,9 @@ include("modelo/tienda.modelo.php");
             </div>
         </div>
         <div class="custom-item-centro">
-            Importado | *CANTIDAD VEHICULO VENDIDOS*
+            <div class="custom-info-product">
+            <p>Importado | # Vendidos</p>
+            </div>
             <h1>
                 <?php echo "$nombre"; ?>
             </h1>

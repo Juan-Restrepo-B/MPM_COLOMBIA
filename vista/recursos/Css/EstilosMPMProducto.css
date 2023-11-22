@@ -146,3 +146,18 @@
 .custom-img-pagos img {
     height: 30px;
 }
+
+.custom-info-product p {
+    color: var(--Secundario);
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.custom-info-product {
+    border-bottom: solid 1px var(--Secundario4);
+}
+
+.custom-item-centro h1 {
+    padding-left: 20px;
+    text-align: left;
+}
